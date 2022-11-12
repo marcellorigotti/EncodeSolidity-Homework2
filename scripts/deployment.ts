@@ -6,18 +6,16 @@ import * as dotenv from "dotenv";
 let ballotContract: Ballot;
 dotenv.config()
 
-//My public address: 0x80D0430C7d1Ed613ea30c02663cC9ce5bBC389A8
 async function main() {
+    //import my wallet through MNEMONIC
     const wallet = ethers.Wallet.fromMnemonic(process.env.MNEMONIC ?? "");
-    // const provider = ethers.getDefaultProvider("goerli");
-    
-    // Use custom provider like Infura or Alchemy
+    //Infura provider added through API key
     const infuraProvider = new ethers.providers.InfuraProvider("goerli", process.env.INFURA_API_KEY);
     const signer = wallet.connect(infuraProvider);
     
-    const proposal = process.argv.slice(2);
-
-    const balance = await signer.getBalance();
+    // const proposal = process.argv.slice(2);
+    let contractAddress = process.argv[2];
+    const proposals = await signer.getBalance();
     console.log(`Connected to the account of address: ${signer.address}`);
     console.log(`Balance of ${balance.toString()} Wei`);
 
