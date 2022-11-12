@@ -22,3 +22,6 @@ https://goerli.etherscan.io/tx/0x828ecbd0f51931bf6e00aef9875ea81906d4f0f59dd3bd1
 https://goerli.etherscan.io/tx/0x07a8bd63d7ccdf6f16d5b0f1ab5c9d988fa1002f0431545b13ad10e55cba8a45
 https://goerli.etherscan.io/tx/0x9d39fb464c2ed8b7a73700fe65a97b52cc27f25e22fab4891093d8cfa48dfce2
 https://goerli.etherscan.io/tx/0xae292baf87bdcbc74460384159bd2d98b611b88bcf22d185c4afd0f6bb8f9deb
+
+Voting for chocolate (Marcello):
+https://goerli.etherscan.io/tx/0xb6b9e6501a4e76170ac3e4ec028a8983d470be79294c0ed314bad0ec0dbfddf2
