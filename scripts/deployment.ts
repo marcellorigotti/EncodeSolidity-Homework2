@@ -1,9 +1,8 @@
 import { ethers } from "hardhat";
 import { Ballot, Ballot__factory } from "../typechain-types";
 import * as dotenv from "dotenv";
-import { ContractFactory } from "ethers";
 
-const PROPOSALS = ["Proposal 1", "Proposal 2", "Proposal 3"];
+// const PROPOSALS = ["Proposal 1", "Proposal 2", "Proposal 3"];
 let ballotContract: Ballot;
 dotenv.config()
 
@@ -26,13 +25,12 @@ async function main() {
     ballotContract = await ballotFactory.deploy(proposal.map((prop) => ethers.utils.formatBytes32String(prop)));
     await ballotContract.deployed();
     console.log(`The ballot contract was deployed at the address ${ballotContract.address}`);
-    console.log(`The address of the contract is ${ballotContract.address}`)
 
     // AVOID REDEPLOYING THE CONTRACT, USE AN EXISTING ONE
     // PASS IT AS PARAMETER OR ENV VARIABLE
     // TODO
-    let contractAddress = process.argv[2];
-    let importedContract = ballotFactory.attach(contractAddress);
+    // let contractAddress = process.argv[2];
+    // let importedContract = ballotFactory.attach(contractAddress);
 
 
 
