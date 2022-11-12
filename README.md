@@ -9,8 +9,8 @@ to the blockchain.
 | Alessandro Morandi      | 0xb91bc2a105c03667930b5ebe639e7914c5763bdb    |
 | José Henrique K. Ambiel | 0x6dE6EAfDD0120279957fB3019b0eec1828D73cDa    |
 | Marcello Rigotti        | 0x80d0430c7d1ed613ea30c02663cc9ce5bbc389a8    |
-| Sobhan BAhrami          | 0x4d7c99e0d0672abc0e9bbd4f5f82a87f2b6956da    |
-| Jeremy                  | 0xc87a65ce2f3bb07c7a59ac0643a56e34a9d531a7    |
+| Sobhan Bahrami          | 0x4d7c99e0d0672abc0e9bbd4f5f82a87f2b6956da    |
+| Jeremy Bernard          | 0xc87a65ce2f3bb07c7a59ac0643a56e34a9d531a7    |
 
 We first deploy the Ballot.sol contract running the deployment.ts script
 
@@ -23,5 +23,8 @@ https://goerli.etherscan.io/tx/0x07a8bd63d7ccdf6f16d5b0f1ab5c9d988fa1002f0431545
 https://goerli.etherscan.io/tx/0x9d39fb464c2ed8b7a73700fe65a97b52cc27f25e22fab4891093d8cfa48dfce2
 https://goerli.etherscan.io/tx/0xae292baf87bdcbc74460384159bd2d98b611b88bcf22d185c4afd0f6bb8f9deb
 
-Voting for chocolate (Marcello):
+Voting for Chocolate (Marcello Rigotti):
 https://goerli.etherscan.io/tx/0xb6b9e6501a4e76170ac3e4ec028a8983d470be79294c0ed314bad0ec0dbfddf2
+
+Voting for Mango (Alessandro Morandi)
+https://goerli.etherscan.io/tx/0xa9baae2fcbe8240a6e4b1c060a86846e06667381938b9e9a075b9b183451a58e

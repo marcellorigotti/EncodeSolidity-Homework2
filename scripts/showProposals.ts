@@ -8,6 +8,7 @@ dotenv.config()
 
 async function main() {
     const wallet = ethers.Wallet.fromMnemonic(process.env.MNEMONIC ?? "");
+    //const wallet = ethers.Wallet.createRandom() 
     // const provider = ethers.getDefaultProvider("goerli");
     
     // Use custom provider like Infura or Alchemy
