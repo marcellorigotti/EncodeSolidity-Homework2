@@ -19,6 +19,7 @@ async function main() {
     ballotContract = ballotFactory.attach(process.env.CONTRACT_ADDRESS ?? "");
     console.log(`Contract address ${ballotContract.address}`)
 
+    //Maybe there is a way to check the array length at runtime??? TODO
     for(let i=0; i<5; i++){
         proposals.push(ethers.utils.toUtf8String((await ballotContract.proposals(i)).name));
     }
