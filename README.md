@@ -28,3 +28,12 @@ https://goerli.etherscan.io/tx/0xb6b9e6501a4e76170ac3e4ec028a8983d470be79294c0ed
 
 Voting for Mango (Alessandro Morandi)
 https://goerli.etherscan.io/tx/0xa9baae2fcbe8240a6e4b1c060a86846e06667381938b9e9a075b9b183451a58e
+
+Give Right to Vote (Jeremy Bernard)
+Rejected, not the chairperson
+
+Delegate vote to Jose (Jeremy Bernard)
+https://goerli.etherscan.io/tx/0xeb49ac16bdd615450d27ff1761f6d47d2f68ec190fda9e246a3f91359cf2a06b
+
+Try to vote again (Jeremy Bernard)
+Rejected, already voted
