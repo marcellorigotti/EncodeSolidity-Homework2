@@ -46,3 +46,6 @@ Delegate vote to Marcello Rigotti (José Henrique K. Ambiel):
 The same as voting for Chocolate since Marcello Rigotti alredy voted for Chocolate
 https://goerli.etherscan.io/tx/0x69204aa193a362c3d3087b2ad99a6c44166b76aa054f7f7644a8311b262ad199
 
+Voting for Chocolate (Marcello Rigotti)
+Reverted with error "Already voted"
+https://goerli.etherscan.io/tx/0x3fd7ba5013e6a7022c8683829a016ffb66af319e3fbbc23d445dcf96ef09cefe
