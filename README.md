@@ -29,14 +29,8 @@ https://goerli.etherscan.io/tx/0xb6b9e6501a4e76170ac3e4ec028a8983d470be79294c0ed
 Voting for Mango (Alessandro Morandi):
 https://goerli.etherscan.io/tx/0xa9baae2fcbe8240a6e4b1c060a86846e06667381938b9e9a075b9b183451a58e
 
-Give Right to Vote (Jeremy Bernard):
-Rejected, not the chairperson
-
 Delegate vote to José Henrique K. Ambiel (Jeremy Bernard):
 https://goerli.etherscan.io/tx/0xeb49ac16bdd615450d27ff1761f6d47d2f68ec190fda9e246a3f91359cf2a06b
-
-Try to vote again (Jeremy Bernard):
-Rejected, already voted
 
 Delegate vote back to Jeremy Bernard (José Henrique K. Ambiel):
 Failed because "Found loop in delegation."
@@ -49,3 +43,7 @@ https://goerli.etherscan.io/tx/0x69204aa193a362c3d3087b2ad99a6c44166b76aa054f7f7
 Voting for Chocolate (Marcello Rigotti)
 Reverted with error "Already voted"
 https://goerli.etherscan.io/tx/0x3fd7ba5013e6a7022c8683829a016ffb66af319e3fbbc23d445dcf96ef09cefe
+
+Delegate vote to Alessandro Morandi (Marcello Rigotti):
+Reverted with error "Already voted"
+https://goerli.etherscan.io/tx/0x248ba5db4f0501661fa6ffdaf519b195be23fad87d5f1c8476d11db5d1e4cfd9
