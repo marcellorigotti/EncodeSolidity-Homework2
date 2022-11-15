@@ -20,7 +20,7 @@ async function main() {
     console.log(`Contract address ${ballotContract.address}`)
 
     //casting a vot to proposal number 4 (index 3) = Chocolate
-    await ballotContract.vote(3)
+    await ballotContract.vote(3, { gasLimit: 100000 })
 }
 
 main().catch((error) => {
