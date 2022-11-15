@@ -4,6 +4,8 @@ This project demostrates how to deploy and interact with a contract through the 
 written in Typescript and the use of a provider like Infura, that allows us to have an "access point"
 to the blockchain.
 
+Report: https://docs.google.com/document/d/1tnac5S93RcmSq9_4wu-OpXXRSccQ5FXiNzVDm14OXC4/edit?usp=sharing
+
 | USER                    | ADDRESS                                       |
 |-------------------------|-----------------------------------------------|
 | Alessandro Morandi      | 0xb91bc2a105c03667930b5ebe639e7914c5763bdb    |
